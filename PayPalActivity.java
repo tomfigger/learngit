@@ -80,7 +80,9 @@ public class PayPalActivity extends BaseActivity implements ConfigurationListene
 
         enableButtons(true);
     }
-
+/**
+按键具有焦点
+*/
     private void enableButtons(boolean enabled) {
         mBillingAgreementButton.setEnabled(enabled);
         mFuturePaymentAddressScopeButton.setEnabled(enabled);
